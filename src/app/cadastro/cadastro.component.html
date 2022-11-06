@@ -1,0 +1,43 @@
+<div class="sidenav">
+  <div class="login-main-text">
+    <h2>Indicae<br /></h2>
+    <p>
+      Registre-se aqui para acessar.
+    </p>
+  </div>
+</div>
+<div class="main">
+  <div class="col-md-6 col-sm-12">
+    <div class="login-form">
+      <form #formCadastro="ngForm">
+        <div *ngIf="msgError" class="alert alert-danger" role="alert">
+          {{ msgError }}
+        </div>
+
+        <div class="form-group">
+          <label>Nome</label>
+          <input type="text" class="form-control" placeholder="Nome" />
+        </div>
+        <div class="form-group">
+          <label>E-mail</label>
+          <input type="email" class="form-control" placeholder="E-mail" />
+        </div>
+        <div class="form-group">
+          <label>Senha</label>
+          <input type="password" class="form-control" placeholder="Senha" />
+        </div>
+        <button
+          type="submit"
+          class="btn btn-black"
+          [disabled]="!formCadastro.form.valid"
+          (click)="cadastro()"
+        >
+          Registrar
+        </button>
+        <a type="submit" routerLink="/login" class="btn btn-secondary">
+          Já tem Login
+        </a>
+      </form>
+    </div>
+  </div>
+</div>

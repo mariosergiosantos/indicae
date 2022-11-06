@@ -1,0 +1,20 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-demotodo-staging-10356-authRole",
+      "UnauthRoleArn": "arn:aws:iam::251839969735:role/amplify-demotodo-staging-10356-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::251839969735:role/amplify-demotodo-staging-10356-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-demotodo-staging-10356-deployment",
+      "UnauthRoleName": "amplify-demotodo-staging-10356-unauthRole",
+      "StackName": "amplify-demotodo-staging-10356",
+      "StackId": "arn:aws:cloudformation:us-east-2:251839969735:stack/amplify-demotodo-staging-10356/e44bec00-5d6e-11ed-b521-02299262e86a",
+      "AmplifyAppId": "d2aehiqhswc1zi"
+    },
+    "categories": {
+      "auth": {
+        "demotodobf215b1d": {}
+      }
+    }
+  }
+}
